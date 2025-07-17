@@ -28,7 +28,7 @@ pip install praw requests
 
 ## Configuration
 
-Create a `config.py` file in the project root with your Reddit API credentials:
+Edit `config.py` file in the project with your Reddit API credentials:
 
 ```python
 # Reddit API credentials
