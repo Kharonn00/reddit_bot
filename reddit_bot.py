@@ -50,9 +50,9 @@ def run_bot(reddit, replied_to):
     #
     # for comment in reddit.subreddit('test').comments(limit=25):
     #
-    #     if "elephant" in comment.body.lower() and comment.id not in replied_to and comment.author != reddit.user.me():
-    #         print(f"Found 'elephant' in comment {comment.id}")
-    #         comment.reply("I also love elephants! [Here](https://en.wikipedia.org/wiki/File:African_Bush_Elephant.jpg) is an image of one!"
+    #     if "joke" in comment.body.lower() and comment.id not in replied_to and comment.author != reddit.user.me():
+    #         print(f"Found 'joke' in comment {comment.id}")
+    #         comment.reply("I also love jokes! [Here](https://yourwebsite.com/jpg.jpg) is an image of one!"
     #
     #         print(f"Replied to comment {comment.id}")
     #         replied_to.add(comment.id)
